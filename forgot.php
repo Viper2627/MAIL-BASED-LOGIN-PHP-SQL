@@ -37,10 +37,10 @@ if(isset($_POST['submit']))
                 $mail->isSMTP();
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
-                $mail->Username='rameshviperrko007@gmail.com';
-                $mail->Password="typstrooebbxfjur";
+                $mail->Username='yourmail@gmail.com';
+                $mail->Password="generate the password by setting up SMTP through GMAIL";
                 $mail->Port = 465;
-                $mail->setFrom('rameshviperrko007@gmail.com');
+                $mail->setFrom('youmail@gmail.com');
                 $mail->addAddress($email_id);
                 $mail->isHTML(true);
                 $mail->Subject = "HI";
